@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta property="og:title" content="Samburu Crossword, Denzel Lenemiria">
+    <title>Samburu Crossword Puzzle</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="col-md-8" style="padding-left: 20px; padding-right: 20px;">
+        <h1>Samburu Crossword Puzzle Demo</h1>
+
+        <!-- How to Play Section -->
+        <section class="how-to-play">
+            <h2>How to Play</h2>
+            <p>Fill in the squares with the correct letters based on the clues provided. Use the "Check Answers" button to see if your answers are correct.</p>
+            <p>When you click reset button it will clear the entire table, you can delete a letter in a cell and in the puzzle.</p>
+        </section>
+
+        <div class="col-md-4" style="padding-left: 20px; padding-right: 20px; padding-top: 10px; color: #f4f4f4;">
+            <div id="cssmenu" style="margin: auto; color: #f4f4f4;">
+                <ul>
+                    <li class="active"><a href="/about/"><span>More? Full versions are available upon inquiry.
+                    </span></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="grid-container">
+            <table id="crossword-grid"></table>
+        </div>
+
+        <div class="clues-container">
+            <h2>Across Clues</h2>
+            <ul id="across-clues"></ul>
+
+            <h2>Down Clues</h2>
+            <ul id="down-clues"></ul>
+        </div>
+
+        <button id="checkAnswers">Check Answers</button>
+        <button id="saveProgress">Save Progress</button>
+        <button id="revealLetter">Reveal Letter</button>
+        <button id="resetPuzzle">Reset Puzzle</button>
+
+        <div id="feedback" class="feedback"></div>
+    </div>
+</body>
+</html>
