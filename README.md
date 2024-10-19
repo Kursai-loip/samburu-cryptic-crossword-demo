@@ -1,5 +1,4 @@
-# Cryptic Crossword Demo
-
+# Cryptic Crossword Demo - Samburu
 This is a demo version of a cryptic crossword puzzle game in the Samburu language. You can interact with the puzzle here: 
 
 ### License
