@@ -50,6 +50,7 @@ td {
     text-align: center;
     vertical-align: middle;
     position: relative;
+    background-color: #f4f4f4;
 }
 
 td input {
